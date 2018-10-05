@@ -22,12 +22,14 @@
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="10dp"
             android:layout_centerVertical="true"
-            android:text="back"
+            android:background="@drawable/ic_action_arrow_left"
             android:textAllCaps="false"/>
     </RelativeLayout>
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></ListView>
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        ></ListView>
 
 </LinearLayout>
